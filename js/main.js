@@ -337,10 +337,10 @@ function configSigmaElements(config) {
     var a = [],
         b,x=0;
 		// for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + political_classes[x-1] + ' ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-        console.log(sigInst.clusters);
+        // console.log(sigInst.clusters);
         for (b in sigInst.clusters) {
             var political_class_id_label = ++x;            
-            console.log(b);
+            // console.log(b);
             a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> ' + (political_class_id_label) + " " + political_classes[x - 1] + ' </a></div>');
         }
     //a.sort();
